@@ -1,0 +1,54 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#hero img {
+    max-width: 100%;
+}
+
+.feature {
+    width: 33.33%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#pricing {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
